@@ -9,3 +9,5 @@
 7. Saez et al. (2026) already present a seven-part university LLM grading framework. The comparison here is a **crosswalk of purposes**, not an instrument head-to-head test, not independent efficacy validation. See DOI `10.1038/s41598-026-48656-3` for its original scope.
 8. No independent human eligibility or annotation reproducibility, raw student answers, private provider-hit archives, teacher-grade decision logs, independent corrected-award adjudication, causal effects, or verified formal transcript amendments are included.
 9. Public GitHub visibility is verified separately from an immutable archived DOI. Author/coauthor-approved code/data licences, final declaration metadata and independent screening remain pending.
+
+A human reviewer template exists at `human_review/` but has **not been executed**. It contributes no observed human validation or kappa.

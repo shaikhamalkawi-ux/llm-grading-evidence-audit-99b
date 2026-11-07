@@ -28,7 +28,9 @@ This prints a per-script `PASS` or fails with a nonzero code. Outputs are determ
 
 `bibliography/`: 61 source locators and the frozen source-preserved BibTeX notes; no copyrighted article PDFs or protected student responses.
 
-`qa/`: one-command executable verification and a SHA-256 manifest check.
+`qa/`: one-command executable verification, blank-review checks, and a SHA-256 manifest check.
+
+`human_review/`: prospective **blank** dual-coder and adjudication templates (not executed; no human reliability statistics fabricated).
 
 ## Interpretation and citation
 

@@ -6,6 +6,7 @@ import csv,hashlib,json,subprocess,sys
 ROOT=Path(__file__).resolve().parents[1]
 entries=[
  'qa/verify_release.py',
+ 'qa/verify_blank_coder_workflow.py',
  'scripts/replay_1000_matrix.py',
  'scripts/replay_kerwat_reference_baselines.py',
  'scripts/replay_yang_paired_summary.py',
