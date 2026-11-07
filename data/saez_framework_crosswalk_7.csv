@@ -1,0 +1,8 @@
+Saez_et_al_2026_Table1_component,Prior_framework_stated_focus,99b_question_covered,Source_anchored_boundary
+Model selection criteria,"Model family, access, licensing, deployment context",G0 provenance and model configuration,Complementary: does not itself establish a correct awarded mark.
+Prompt design and parameters,"Grading instruction format, iterations, parameters",G1 rubric/administrative configuration; G4 only if student-origin attacks tested,Do not recode authorized grader-prompt changes as answer-side injection.
+Evaluation measures for grades,"Instructor--LLM score differences, MAE, correlations, tests",G2 score agreement; G3 only if grade boundaries/awards are tested,Score correlation is not an independently adjudicated grade award.
+Evaluation measures for feedback,Lexical/semantic feedback measures and instructor inspection,Outside direct G0--G6 decision coding except criterion evidence at G1/G2,Our audit does not replace pedagogical feedback evaluation.
+Handling of variability,Repeat-run/prompt/model variability,G2 reference and result instability; G5 requires a different paired defense/clean design,Consistency does not alone certify correct grade decisions.
+Cost estimation,Token/use cost per grading model,"Adjacent to G6 operational burden, but not an observed appeal labor measure",Model API cost and human review burden are distinct endpoints.
+Reporting and interpretation,"Documentation of setup, measurements, interpretations",Across G0--G6 source-to-claim trace,"Source audit adds explicit evidence-boundary labels, not a performance superiority test."

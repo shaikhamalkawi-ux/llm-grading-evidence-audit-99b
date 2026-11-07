@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.log
+*_replay_result.json
+*_reference_baseline_results.json
+*_reference_baselines.csv
+*cross_table_check_results.json
+*attack_endpoint_replay.json
+*A17_yang_summary_replay.json

@@ -1,0 +1,48 @@
+{
+  "coding_unit": "report-level records (purposive panel; not independent student cohorts)",
+  "selected_reports": 19,
+  "gates_per_report": 7,
+  "total_gate_cells": 133,
+  "G3_original_counts": {
+    "P": 10,
+    "NR": 4,
+    "O": 4,
+    "NA": 1
+  },
+  "G6_original_counts": {
+    "NR": 12,
+    "P": 6,
+    "NA": 1
+  },
+  "G3_O_reclassification": {
+    "retrospective_band_comparisons": [
+      "SG05",
+      "SG07",
+      "SG14"
+    ],
+    "live_LLM_assigned_course_mark": [
+      "SG18"
+    ]
+  },
+  "G6_P_reclassification": {
+    "review_flag_only": [
+      "SG02"
+    ],
+    "simulated_substitution": [
+      "SG03"
+    ],
+    "instructor_mark_dependent_trigger": [
+      "SG04"
+    ],
+    "actual_mark_revision_unverified": [
+      "SG09"
+    ],
+    "observed_review_requests_no_independent_verified_correction": [
+      "SG17",
+      "SG18"
+    ]
+  },
+  "independent_human_double_coding": false,
+  "independent_G6_correctness_adjudication": false,
+  "claim_status": "DESCRIPTIVE_SINGLE_ANALYST_OVERLAY_NOT_A_NEW_SCIENTIFIC_INSTRUMENT"
+}

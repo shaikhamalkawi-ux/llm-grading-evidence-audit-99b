@@ -1,0 +1,45 @@
+{
+  "source_id": "ref46",
+  "doi": "10.1080/02602938.2026.2734796",
+  "publisher_url": "https://www.tandfonline.com/doi/full/10.1080/02602938.2026.2734796?af=R",
+  "accessed_date": "2026-11-03",
+  "acquisition_scope": "Original publisher HTML Methods and Results returned through the web search index. No new publisher PDF, supplementary file or row-level prediction archive acquired.",
+  "source_locators": {
+    "counts": "Methodology / Data source and essay selection; Data preparation and matching",
+    "scale": "Methodology / Measures",
+    "best_run": "Results / Primary matched-set performance (text introducing Table 2)",
+    "sensitivity": "Results / Merit-distinction discrimination (text introducing Table 4)",
+    "scope": "Limitations and future research; source explicitly acknowledges M-D reference support"
+  },
+  "count_unit": "Matched essays, not proven independent learners",
+  "grade_values": {
+    "Fail": 0,
+    "Pass": 1,
+    "Merit": 2,
+    "Distinction": 3
+  },
+  "reference_counts": {
+    "Fail": 0,
+    "Pass": 0,
+    "Merit": 70,
+    "Distinction": 44
+  },
+  "n_essays": 114,
+  "reported_best_configuration": {
+    "name": "Llama 3.1 8B",
+    "temperature": 0.5,
+    "exact_agreement_percent": 54.4,
+    "within_one_band_percent": 98.2,
+    "mae_grade_bands": 0.474,
+    "distinction_sensitivity_percent": 43.2,
+    "values_are_source_reported_and_rounded": true
+  },
+  "analysis_status": "Retrospective deterministic controls calculated from published label marginals; no new model runs, actual constant-marker experiment or row-level replication",
+  "prohibited_inferences": [
+    "Pre-specified out-of-sample baseline",
+    "Statistical significance of a model-control difference",
+    "Constant prediction is an acceptable grading policy",
+    "Models have no class discrimination",
+    "General university accuracy or official grade correctness"
+  ]
+}
