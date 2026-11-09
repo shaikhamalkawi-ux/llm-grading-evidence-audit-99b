@@ -1,0 +1,29 @@
+{
+  "source": "Cruz et al. (2026) original public Zenodo v2 grade-pair workbook",
+  "source_doi": "10.5281/zenodo.21823096",
+  "source_file": "Grading_Metrics_AI_vs_Instructor.xlsx",
+  "source_md5": "045dc7549d0c5cfb0ef888cbfd99c038",
+  "source_sha256": "881f2151e3ca70685f042dfda06b1c41e925e5c4b87e9ea4a59f7bf6d6bcac0a",
+  "case_counts": {
+    "case1": 64,
+    "case2": 59,
+    "case3": 64,
+    "case4": 63,
+    "case5": 59,
+    "case6": 53
+  },
+  "repeated_labels_across_sheets_count": 3,
+  "repeated_labels_not_exported": true,
+  "metrics": {
+    "n_paired_submissions": 362,
+    "within_half_point": 302,
+    "outside_half_point": 60,
+    "at_least_0_8_discrepancy": 11,
+    "greater_than_0_8_discrepancy": 11,
+    "mae": 0.3069751381215469,
+    "signed_bias_ai_minus_instructor": -0.1559622467771638,
+    "icc_2_1_absolute_agreement": 0.4888536273784712
+  },
+  "status": "PASS_SOURCE_V2_DESCRIPTIVE_REPLAY",
+  "limits": "Instructor benchmark only; one institution, 66 students and 362 submissions; case-local IDs cannot establish cross-case learner link; grade-threshold review rule requires instructor marks; no corrected official awarded grade result, significance test, or transport claim."
+}

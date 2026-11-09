@@ -1,4 +1,4 @@
-# Evidence/claim boundaries (R107)
+# Evidence/claim boundaries (R108)
 
 1. This is a **purposive**, retrospectively selected report-level panel: 19 sources, not 19 independently recruited university cohorts, not a representative bibliographic census, not a systematic census. The 496 secondary technical keys had AI-assisted original title/abstract readings; these are not completed full-text eligibility decisions.
 2. The fixed G0–G6 states are source-specific observational availability labels: `O` observed scoped result, `P` partial/proxy, `NR` not reported, `NA` inapplicable, `U` unverified. They are **not weights, quality grades, thresholds or trust scores**. The tables are descriptive source annotations, not validated scoring instruments.
@@ -7,6 +7,7 @@
 5. EvalHack published Table 12 provides four cells `125,205,218,452`. The 78.2% is the **conditional upper bound** if all 125 flagged out-of-tolerance answers were successfully corrected, no previously valid flag was harmed and unflagged answers were untouched. It is **not observed performance**.
 6. Kerwat reference supports only `70 Merit / 44 Distinction` among 114 essays; a constant-Merit exact agreement `70/114` and 100% within-one-band show restricted reference support. No claim the constant predictor is a valid scoring system or statistically superior model.
 7. Saez et al. (2026) already present a seven-part university LLM grading framework. The comparison here is a **crosswalk of purposes**, not an instrument head-to-head test, not independent efficacy validation. See DOI `10.1038/s41598-026-48656-3` for its original scope.
-8. No raw student answers, private provider-hit archives, teacher-grade decision logs, independent corrected-award adjudication, causal effects, or verified formal transcript amendments are included.
-9. Public GitHub visibility is verified separately from an immutable archived DOI. Author/coauthor-approved code/data licences, final declaration metadata and author/rights review remain pending.
+8. Cruz grade-pair metrics (N=362, within-0.5=302, MAE=0.306975, ICC(A,1)=0.488854) are recreated by the standalone source-locked script using the separately downloaded official Zenodo v2 .xlsx. The GitHub Actions synthetic parser test is not a full external-source rerun.
+9. No raw student answers, private provider-hit archives, teacher-grade decision logs, independent corrected-award adjudication, causal effects, or verified formal transcript amendments are included.
+10. Public GitHub visibility is verified separately from an immutable archived DOI. Author/coauthor-approved code/data licences, final declaration metadata and author/rights review remain pending.
 
