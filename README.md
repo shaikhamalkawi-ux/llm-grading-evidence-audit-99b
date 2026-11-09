@@ -2,7 +2,7 @@
 
 **Public reproducibility and source-to-claim evidence files** for the author-review manuscript *When LLM Grades Become University Decisions: A Critical Review of Scoring, Attacks, and Appeals* (target journal: *Education Sciences*, MDPI). 
 
-**Status as of 9 November 2026:** scientific author-review; not submitted or accepted. This repository is public for inspection. A permanent archived version/DOI and reuse licences have not yet been author-approved. See [LICENSE_STATUS.md](LICENSE_STATUS.md). This project is a **purposive critical source review**, not a systematic study census, field-wide performance estimate, or deployment test.
+**Status as of 9 November 2026 (R109 editorial-citation update):** scientific author-review; not submitted or accepted. This repository is public for inspection. A permanent archived version/DOI and reuse licences have not yet been author-approved. See [LICENSE_STATUS.md](LICENSE_STATUS.md). This project is a **purposive critical source review**, not a systematic study census, field-wide performance estimate, or deployment test.
 
 ## What is actually reproducible here?
 
@@ -28,9 +28,9 @@ This prints a per-script `PASS` or fails with a nonzero code. For the Cruz grade
 
 `results/`: aggregate-only source checksum and verified Cruz results; raw student or assignment records are NOT included.
 
-`bibliography/`: 61 source locators and the frozen source-preserved BibTeX notes; no copyrighted article PDFs or protected student responses.
+`bibliography/`: 61 source locators, an APA-alphabetized reference-list file, verified R109 author-metadata patches, and the frozen historical BibTeX notes; no copyrighted article PDFs or protected student responses.
 
-`qa/`: one-command executable verification, a synthetic (nonempirical) Cruz parser test, and SHA-256 checks.
+`qa/`: one-command executable verification, APA citation-key/ordering consistency, a synthetic (nonempirical) Cruz parser test, and SHA-256 checks.
 
 
 ## Interpretation and citation

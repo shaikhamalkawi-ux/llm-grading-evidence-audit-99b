@@ -6,6 +6,7 @@ import csv,hashlib,json,subprocess,sys
 ROOT=Path(__file__).resolve().parents[1]
 entries=[
  'qa/verify_release.py',
+ 'qa/verify_apa_bibliography.py',
  'qa/verify_cruz_replay.py',
  'scripts/replay_1000_matrix.py',
  'scripts/replay_kerwat_reference_baselines.py',
@@ -33,4 +34,4 @@ for path,digest in manifest.items():
   assert pp.exists(), path
   assert hashlib.sha256(pp.read_bytes()).hexdigest()==digest, path
 print(f'PASS metadata locators={len(idx)}, integrity manifest={len(manifest)}, no copyrighted PDFs packaged')
-print('PASS ALL R108 public-safe checks (published-summary arithmetic and descriptive source records)')
+print('PASS ALL R109 public-safe checks (published-summary arithmetic and descriptive source records)')
