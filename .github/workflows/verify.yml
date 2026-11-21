@@ -14,3 +14,5 @@ jobs:
           python-version: '3.12'
       - name: Verify source registers and published-summary arithmetic
         run: python qa/run_all.py
+      - name: Verify R141-EP1 public-source snapshot, 111 references, and 10 images
+        run: python qa/verify_r141_ep1_public_snapshot.py

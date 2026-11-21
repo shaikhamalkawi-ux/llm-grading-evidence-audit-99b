@@ -1,40 +1,40 @@
 # LLM Grading Evidence Audit — Project 99b
 
-**Public reproducibility and source-to-claim evidence files** for the author-review manuscript *When LLM Grades Become University Decisions: A Critical Review of Scoring, Attacks, and Appeals* (target journal: *Education Sciences*, MDPI). 
+**Public source-to-claim audit and reproducibility materials** for the author-review study *When LLM Grades Become University Decisions: A Source-Critical Review of Grading Validity, Attacks, and Appeals*.
 
-**Status as of 9 November 2026 (R109 editorial-citation update):** scientific author-review; not submitted or accepted. This repository is public for inspection. A permanent archived version/DOI and reuse licences have not yet been author-approved. See [LICENSE_STATUS.md](LICENSE_STATUS.md). This project is a **purposive critical source review**, not a systematic study census, field-wide performance estimate, or deployment test.
+**Current source snapshot: R141-EP1 (22 November 2026)**. The scientific baseline remains the R141 manuscript; EP1 is a typesetting/language/figure-readability revision only. The paper is **NOT SUBMITTED, NOT PEER REVIEWED, NOT ACCEPTED**. The repository does not host the submission-template manuscript or any original third-party scholarly PDFs. See [MANUSCRIPT_STATUS.md](MANUSCRIPT_STATUS.md).
 
-## What is actually reproducible here?
+## Current public-source inventory
 
-- The fixed purposive **19 report identities × 7 G0–G6 reporting gates = 133 cells** and exact source identities; neither study quality nor a university grading safety score.
-- A **single-analyst descriptive event-type overlay** distinguishing G3 retrospective grade comparison from deployed LLM-mark use; and G6 review flag / simulation / instructor-referenced trigger / observed appeal-linked mark change / request. The event labels are source-bounded descriptive annotations, not an externally calibrated grading scale.
-- Seven standalone standard-library source-scoped audit scripts: EvalHack fixed-routing conditional ceiling, Kerwat restricted-label controls, Yang rounded paired-summary sensitivity, Azad appeals, Humble attack-endpoint semantics, and EvalHack cross-table comparability. The earlier six use published summary counts; the additional Cruz script independently recalculates descriptive grade-pair statistics from the **official, separately downloaded** Zenodo v2 workbook (not redistributed). These are **not** new LLM grading experiments or independent student-level award-validation tests.
-- A **seven-row source-scoped framework crosswalk** to Saez et al. (2026); complementary questions, **not a demonstrated outperforming framework**.
-- A [61-item bibliographic locator index](bibliography/papers_index_61.csv) with authoritative DOI/publisher URLs and the [source-preserved bibliography](bibliography/references_source_preserved.bib). Third-party articles are linked, **not redistributed**.
+- The original **19 selected reports × seven G0–G6 questions = 133 fixed source-to-claim annotations** in `data/`. Their gate labels are descriptive evidence availability, not quality/safety scores.
+- A source-preserved **111-entry bibliography snapshot**: [metadata CSV](bibliography/source_identity_index_R141_EP1_111.csv) and [author-review bibitems](bibliography/apa_bibitems_R141_EP1_111.tex). The earlier [61-item locator index](bibliography/papers_index_61.csv) is retained as historical metadata, **not** a complete R141 literature list.
+- All **10 figures used in the author-review version** as source-exact PNGs under [figures/r141_ep1](figures/r141_ep1), with SVG versions for the five new figures. Figure inventory numbering is archival, not journal figure numbering.
+- Frozen **aggregate-only inputs** [FIGURE_R140_AGGREGATE_ONLY.json](data/FIGURE_R140_AGGREGATE_ONLY.json) and [figure renderer](scripts/build_R140_new_figures.py) for the five added figures. These files produce graphics from previously checked counts, **not** a fresh raw-data replay.
+- Historical Cruz source-file [replay script](scripts/replay_cruz_grade_pairs.py), source checksum, published-count checks, event overlay and the published-summary controls from the earlier repository version. The original grade-pair Excel workbook is obtained separately from Zenodo v2; no raw student pairs are redistributed.
+- Source fingerprints and public-file SHA-256 values in [the manifest](provenance/R141_EP1_public_source_sync_manifest.json).
 
-## Reproduce with Python 3.11+ (no external Python dependencies)
+## How to verify
+
+For the inherited source registers and published-summary checks (Python 3.11+ standard library):
 
 ```bash
 python qa/run_all.py
 ```
 
-This prints a per-script `PASS` or fails with a nonzero code. For the Cruz grade-pair scientific replay, first download the original workbook from Zenodo and run the command in [CRUZ_REPLAY.md](CRUZ_REPLAY.md); the routine CI test does not rehost or download that dataset. Outputs are deterministic descriptive checks generated from published summary counts. For substantive scientific interpretation, read [CLAIM_BOUNDARIES.md](CLAIM_BOUNDARIES.md) before citing any number.
+For the new public-source inventory (metadata and exact archived aggregates, **not** empirical model reproduction):
 
-## Repository files
+```bash
+python qa/verify_r141_ep1_public_snapshot.py
+```
 
-`data/`: public-safe 19-source register, G0–G6 matrix, A66 archival provenance crosswalk, R107 event overlay, seven-component prior-art crosswalk and event-summary JSON.
+To regenerate the five aggregate-only figures, install optional plotting dependencies from `requirements-figures.txt` and run `python scripts/build_R140_new_figures.py`. The original source-exact images are kept unchanged in the versioned figure directory; numerical content is frozen.
 
-`scripts/`: six published-summary checks, one source-linked Cruz grade-pair checker (`replay_cruz_grade_pairs.py`) plus the published-count Kerwat JSON input; no third-party Python libraries. See [CRUZ_REPLAY.md](CRUZ_REPLAY.md).
+To rerun the Cruz grade-pair checks from the official separate workbook, follow [CRUZ_REPLAY.md](CRUZ_REPLAY.md). An automated synthetic parser smoke test is **not** a substitute for that source-file replay.
 
-`results/`: aggregate-only source checksum and verified Cruz results; raw student or assignment records are NOT included.
+## Interpretation and rights
 
-`bibliography/`: 61 source locators, an APA-alphabetized reference-list file, verified R109 author-metadata patches, and the frozen historical BibTeX notes; no copyrighted article PDFs or protected student responses.
+The panel was selected retrospectively and is **not a systematic literature census or an estimate of university-wide grading errors**. A measured score gap is not necessarily an issued university award, and a review request is not independently established correction. Read [CLAIM_BOUNDARIES.md](CLAIM_BOUNDARIES.md).
 
-`qa/`: one-command executable verification, APA citation-key/ordering consistency, a synthetic (nonempirical) Cruz parser test, and SHA-256 checks.
+**No third-party publisher PDFs, protected student response texts, private student scores, credentials, unapproved author manuscript, or MDPI journal-template PDFs are uploaded.** Public visibility is not an open-source reuse grant. Research funding/declarations, author/rights approvals, GitHub license and a permanent repository DOI remain subject to author review; see [LICENSE_STATUS.md](LICENSE_STATUS.md).
 
-
-## Interpretation and citation
-
-Use the exact source citation for the original empirical study. This repository contains an **audit of published evidence**, not a substitute for reading that study. For the 99b manuscript, an author-approved article citation and repository DOI are **pending**. GitHub alone is not a versioned archival DOI; an immutable release/Zenodo deposit may be prepared after author approval.
-
-Repository URL: https://github.com/shaikhamalkawi-ux/llm-grading-evidence-audit-99b
+For published empirical results, cite the **original investigators** and DOI. For this working code collection, use [CITATION_GUIDANCE.md](CITATION_GUIDANCE.md) and a **specific commit SHA**; do not present a GitHub URL as an archival DOI.

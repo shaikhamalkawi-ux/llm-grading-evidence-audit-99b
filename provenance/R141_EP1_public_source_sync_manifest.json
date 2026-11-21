@@ -1,0 +1,51 @@
+{
+  "project": "99b",
+  "as_of": "2026-11-22",
+  "source_version": "R141-EP1",
+  "source_title": "When LLM Grades Become University Decisions: A Source-Critical Review of Grading Validity, Attacks, and Appeals",
+  "locked_science": {
+    "selected_reports": 19,
+    "gates": 7,
+    "gate_cells": 133,
+    "references_current": 111,
+    "figures_current": 10,
+    "underlying_model_runs_recomputed": false
+  },
+  "source_identification": {
+    "author_review_manuscript_sha256": "7fe050e3d02ba03719a0ed484287f179d6c248789e398c798cbd489ba89818dc",
+    "author_review_supplement_sha256": "0a9c99725d8c5566ba4bb08b20d3454ea2941308e9634dd577339e5873ce0345",
+    "source_zip_sha256": "ea267866ba7d88507e9a0a442c008bf7de653bb9b429b1616a9390921ba133f8"
+  },
+  "public_file_sha256": {
+    "MANUSCRIPT_STATUS.md": "82cf52b8361998475d3bb08c153ac921ee8d6ac64cf82da7a8e3024b9d14e705",
+    "bibliography/source_identity_index_R141_EP1_111.csv": "35f5a060b943013eb9bffa4018b455c02c2dde19cefecae8b0eed2a308dc586a",
+    "bibliography/apa_bibitems_R141_EP1_111.tex": "a176635e75ca73b57aeecdcb639fe79f3712b8ce5784e07bc1f363375aaef81e",
+    "qa/verify_r141_ep1_public_snapshot.py": "d56439684be9777bfc79dc44886390d0bb013a51a7e55848087ec0b4c20703b1",
+    "scripts/build_R140_new_figures.py": "b201989610d5ab12e5ab621487a675a4eaa2907e481d6c5728b8384a10240369",
+    "data/FIGURE_R140_AGGREGATE_ONLY.json": "79f2d5d88fbcc320e05a8d19fe2984ff1e355d82fdbcc57528a8bf13d998e302",
+    "figures/r141_ep1/Figure08_N3_Source_To_Claim_Gate_Matrix.png": "4850eea6232e99082385f9997f91874c0b12e4cebe2c17c59afc20c4a41e8d15",
+    "figures/r141_ep1/Figure03_SteadyEval_Clean_vs_Attack.png": "3ac44168564fb312c1acd42e4178b0d7d0d9fb10a74684639a9143a6e2b556e3",
+    "figures/r141_ep1/Figure05_Appeals.png": "bf18df8bf28918b7d6ef921dfe2cbfaac4e748b4e3e1319a8d0bd7a289fe81f3",
+    "figures/r141_ep1/Figure02_Cruz_Threshold_Spectrum.png": "b9de82d5a185307720eca6cd3e5a68247359bb402e4a259b2d4c69077d51bfd5",
+    "figures/r141_ep1/Figure04_EvalHack_Flags.png": "70c28529ccf4c261eb724966f8c073f0be89647e7622bb1f7169b1ae4dcaede2",
+    "figures/r141_ep1/Figure01_Evidence_Pathways.png": "d2d1fc2254490c9002c39fcb0fa445c068831f4154f371b4b847e8782a719caa",
+    "figures/r141_ep1/Figure07_N2_Human_Human_ScoreDifference_Distribution.png": "8891aee4b0801fe589eea132bfbe6b9b57cc367b1ac061db6248f1c61ce21b55",
+    "figures/r141_ep1/Figure06_N1_Floden_Five_Actual_Course_Thresholds.png": "d4a0233775229c2be8f61d15113b1a07e1d7c2a37d956ff8f72da93e1fe0bb7c",
+    "figures/r141_ep1/Figure09_N4_Cruz_CloseScores_Versus_Boundary.png": "c303b17d07c637f3228eb3902e5f795b4d3f26e7ff5ca196613c605ad4c7e568",
+    "figures/r141_ep1/Figure10_N5_Human_Human_Illustrative_Threshold_Sensitivity.png": "943ba9f77266e93d3959cb76cf03322fbec1de9309d61a23f6493fd36dedf89e",
+    "figures/r141_ep1/README.md": "ca33a0448ffca302eddf02d37a1d81edbfe1ae2934710e6171360d76372af32d",
+    "figures/r141_ep1/source_svg/N1_Floden_Five_Actual_Course_Thresholds.svg": "4f18bd62db093d498ab166698d02503f1f6c8d9565a6e2e0af73239307bfb4b3",
+    "figures/r141_ep1/source_svg/N2_Human_Human_ScoreDifference_Distribution.svg": "59cd08d99b8af30b87afe1207a2e10cf801fca3b5a3c8886e0186ff07f17bfdb",
+    "figures/r141_ep1/source_svg/N3_Source_To_Claim_Gate_Matrix.svg": "680b364c074d133d8ea7c3ac795ad9ace9354e628f8bec3623adfe4a5e06c03b",
+    "figures/r141_ep1/source_svg/N5_Human_Human_Illustrative_Threshold_Sensitivity.svg": "69fed87a58a9033e3640d0ff2d096ea6da0b37a12b3a67ad1455c53f7c21e044",
+    "figures/r141_ep1/source_svg/N4_Cruz_CloseScores_Versus_Boundary.svg": "12feb0f98f0c8a717b170523635f7068fcce2e165a7fb70ac27e316a7e2fa23e"
+  },
+  "prohibitions": [
+    "No third-party publisher PDFs",
+    "No copyrighted source text or student answer records",
+    "No raw individual grade pairs",
+    "No MDPI journal-template manuscript or supplement PDFs",
+    "No claim of peer review, approval, or DOI"
+  ],
+  "notes": "The 61 historical bibliographic locators remain separate from the current 111-reference metadata snapshot. The GitHub repo lacks author-approved redistribution licenses and must not be treated as a public-data rights grant."
+}
