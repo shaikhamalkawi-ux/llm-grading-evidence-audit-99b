@@ -38,3 +38,11 @@ The panel was selected retrospectively and is **not a systematic literature cens
 **No third-party publisher PDFs, protected student response texts, private student scores, credentials, unapproved author manuscript, or MDPI journal-template PDFs are uploaded.** Public visibility is not an open-source reuse grant. Research funding/declarations, author/rights approvals, GitHub license and a permanent repository DOI remain subject to author review; see [LICENSE_STATUS.md](LICENSE_STATUS.md).
 
 For published empirical results, cite the **original investigators** and DOI. For this working code collection, use [CITATION_GUIDANCE.md](CITATION_GUIDANCE.md) and a **specific commit SHA**; do not present a GitHub URL as an archival DOI.
+
+## Additional source-defined checks in the R141-EP1 archive
+
+- [Flodén original five-cutoff aggregates](data/floden_original_course_five_cutoffs_aggregate.csv) and [source-checked per-course aggregate record](data/floden_five_cutoff_by_course_aggregate.json): retrospective original course grade boundaries; the same 74 exam records contribute across boundaries. The [replay script](scripts/replay_floden_official_cutoffs.py) requires a separately obtained, permitted source-row transcript; the individual exam rows are **not** distributed here.
+- [18 added 2021–2026 contextual references](bibliography/R137_six_year_literature_evidence_18.csv): DOI/source-identity metadata and claim limits, not 18 new independent assessed student cohorts.
+- [Additional-source SHA-256](provenance/R141_EP1_additional_public_sources_sha256.json) records the exact bytes of these four supplemental assets.
+
+These additions do not alter the locked 19 × 7 source-to-claim evidence matrix or publish any source students' text or individual grades.

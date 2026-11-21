@@ -1,0 +1,220 @@
+{
+  "by_course": [
+    {
+      "course": "Course 1",
+      "n": 25,
+      "exact_AF": 3,
+      "wrong_AF": 22,
+      "cutoffs": [
+        {
+          "boundary": "F / E",
+          "pct": 50,
+          "same": 20,
+          "discordant": 5,
+          "AI_above_human_below": 5,
+          "human_above_AI_below": 0
+        },
+        {
+          "boundary": "E / D",
+          "pct": 60,
+          "same": 17,
+          "discordant": 8,
+          "AI_above_human_below": 7,
+          "human_above_AI_below": 1
+        },
+        {
+          "boundary": "D / C",
+          "pct": 68,
+          "same": 17,
+          "discordant": 8,
+          "AI_above_human_below": 5,
+          "human_above_AI_below": 3
+        },
+        {
+          "boundary": "C / B",
+          "pct": 75,
+          "same": 19,
+          "discordant": 6,
+          "AI_above_human_below": 4,
+          "human_above_AI_below": 2
+        },
+        {
+          "boundary": "B / A",
+          "pct": 85,
+          "same": 20,
+          "discordant": 5,
+          "AI_above_human_below": 3,
+          "human_above_AI_below": 2
+        }
+      ]
+    },
+    {
+      "course": "Course 2",
+      "n": 22,
+      "exact_AF": 7,
+      "wrong_AF": 15,
+      "cutoffs": [
+        {
+          "boundary": "F / E",
+          "pct": 50,
+          "same": 18,
+          "discordant": 4,
+          "AI_above_human_below": 3,
+          "human_above_AI_below": 1
+        },
+        {
+          "boundary": "E / D",
+          "pct": 60,
+          "same": 18,
+          "discordant": 4,
+          "AI_above_human_below": 2,
+          "human_above_AI_below": 2
+        },
+        {
+          "boundary": "D / C",
+          "pct": 68,
+          "same": 14,
+          "discordant": 8,
+          "AI_above_human_below": 4,
+          "human_above_AI_below": 4
+        },
+        {
+          "boundary": "C / B",
+          "pct": 75,
+          "same": 17,
+          "discordant": 5,
+          "AI_above_human_below": 3,
+          "human_above_AI_below": 2
+        },
+        {
+          "boundary": "B / A",
+          "pct": 85,
+          "same": 22,
+          "discordant": 0,
+          "AI_above_human_below": 0,
+          "human_above_AI_below": 0
+        }
+      ]
+    },
+    {
+      "course": "Course 3",
+      "n": 27,
+      "exact_AF": 12,
+      "wrong_AF": 15,
+      "cutoffs": [
+        {
+          "boundary": "F / E",
+          "pct": 50,
+          "same": 24,
+          "discordant": 3,
+          "AI_above_human_below": 2,
+          "human_above_AI_below": 1
+        },
+        {
+          "boundary": "E / D",
+          "pct": 60,
+          "same": 20,
+          "discordant": 7,
+          "AI_above_human_below": 5,
+          "human_above_AI_below": 2
+        },
+        {
+          "boundary": "D / C",
+          "pct": 68,
+          "same": 22,
+          "discordant": 5,
+          "AI_above_human_below": 4,
+          "human_above_AI_below": 1
+        },
+        {
+          "boundary": "C / B",
+          "pct": 75,
+          "same": 21,
+          "discordant": 6,
+          "AI_above_human_below": 2,
+          "human_above_AI_below": 4
+        },
+        {
+          "boundary": "B / A",
+          "pct": 85,
+          "same": 26,
+          "discordant": 1,
+          "AI_above_human_below": 0,
+          "human_above_AI_below": 1
+        }
+      ]
+    },
+    {
+      "course": "All courses",
+      "n": 74,
+      "exact_AF": 22,
+      "wrong_AF": 52,
+      "cutoffs": [
+        {
+          "boundary": "F / E",
+          "pct": 50,
+          "same": 62,
+          "discordant": 12,
+          "AI_above_human_below": 10,
+          "human_above_AI_below": 2
+        },
+        {
+          "boundary": "E / D",
+          "pct": 60,
+          "same": 55,
+          "discordant": 19,
+          "AI_above_human_below": 14,
+          "human_above_AI_below": 5
+        },
+        {
+          "boundary": "D / C",
+          "pct": 68,
+          "same": 53,
+          "discordant": 21,
+          "AI_above_human_below": 13,
+          "human_above_AI_below": 8
+        },
+        {
+          "boundary": "C / B",
+          "pct": 75,
+          "same": 57,
+          "discordant": 17,
+          "AI_above_human_below": 9,
+          "human_above_AI_below": 8
+        },
+        {
+          "boundary": "B / A",
+          "pct": 85,
+          "same": 68,
+          "discordant": 6,
+          "AI_above_human_below": 3,
+          "human_above_AI_below": 3
+        }
+      ],
+      "sources": {
+        "original_article": "https://doi.org/10.1002/berj.4069",
+        "original_appendix": "https://onlinelibrary.wiley.com/doi/10.1002/berj.4069",
+        "frozen_historical_workbook_sha256": "1d21ccfe76f05e3590c4fd4c2dff72895f231de00c784e06e1c23af954b4b8d4",
+        "transcription": "R29 archived worksheet Exam_Pairs_74; derived integer cross-tab only"
+      },
+      "boundary_scope": "Actual 2022 course letter-grade categories; retrospective ChatGPT comparison; original teacher awards official; same exam can contribute to multiple threshold counts.",
+      "label_consistency": {
+        "source_pairs_matching_numeric_thresholds": 148,
+        "score_labels_compared": 148,
+        "mismatched_rows": []
+      }
+    }
+  ],
+  "source": {
+    "original_article": "https://doi.org/10.1002/berj.4069",
+    "original_appendix": "https://onlinelibrary.wiley.com/doi/10.1002/berj.4069",
+    "frozen_historical_workbook_sha256": "1d21ccfe76f05e3590c4fd4c2dff72895f231de00c784e06e1c23af954b4b8d4",
+    "transcription": "R29 archived worksheet Exam_Pairs_74; derived integer cross-tab only"
+  },
+  "scientific_limits": "Actual 2022 course letter-grade categories; retrospective ChatGPT comparison; original teacher awards official; same exam can contribute to multiple threshold counts.",
+  "label_consistency": {
+    "source_pairs_matching_numeric_thresholds": 148,
+    "score_labels_compared": 148,
+    "mismatched_rows": []
+  }
+}

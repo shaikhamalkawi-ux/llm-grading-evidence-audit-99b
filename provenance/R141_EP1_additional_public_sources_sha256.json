@@ -1,0 +1,10 @@
+{
+  "version": "R141-EP1",
+  "meaning": "Additional metadata and source-defined aggregate audit assets, not new empirical model runs",
+  "files": {
+    "scripts/replay_floden_official_cutoffs.py": "43f075976509f2214a594c76359be3bc35f51512c0875e78b2603c0b3f1fbc4b",
+    "data/floden_original_course_five_cutoffs_aggregate.csv": "fa06e1a2a525c2d844ace482f80800ed11a5792ebeba05311e79884b2f30717a",
+    "data/floden_five_cutoff_by_course_aggregate.json": "821b49c901daaaaf1063021d60807fbf273d273e7b47354657cadf89e0fa019c",
+    "bibliography/R137_six_year_literature_evidence_18.csv": "c3cc116870c62d07ded3b80ef6c4d77e2072557387233ba0fe9c6b59acc3e091"
+  }
+}
